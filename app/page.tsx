@@ -39,7 +39,7 @@ export default function Home() {
           thinking. I helped write the Human Interface Guidelines for Charts.
           I&apos;ve authored a number of data-driven interactive articles.
           Recently, I&apos;ve been building internal data tools for evaluation
-          of Apple Intelligence LLM models. I like to prototype. I like to
+          of the LLMs of Apple Intelligence. I like to prototype. I like to
           polish those prototypes into products. I like refining the small
           details that make something <i>great</i> instead of good.
         </p>
