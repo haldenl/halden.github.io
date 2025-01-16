@@ -60,7 +60,7 @@ const ProjectHighlight: React.FC<ProjectHighlightProps> = ({
           >
             {img1Meta && (
               <div className="pointer-events-none mb-2 transition-all duration-200 flex flex-row justify-center md:opacity-0 md:group-hover/imgs:opacity-100">
-                <div className="md:font-semibold text-sm md:group-hover/imgs:scale-150 xl:group-hover/imgs:scale-100 text-gray-600 bg-white/40 md:bg-white/90 md:mix-blend-multiply px-1 py-0.5 rounded-md shadow-xl underline">
+                <div className="text-sm md:group-hover/imgs:scale-150 xl:group-hover/imgs:scale-100 text-gray-600 bg-white/40 md:bg-white/90 md:mix-blend-multiply px-1 py-0.5 rounded-md shadow-xl underline">
                   {img1Meta.title}
                 </div>
               </div>
@@ -76,7 +76,7 @@ const ProjectHighlight: React.FC<ProjectHighlightProps> = ({
           >
             {hasImg2Title && (
               <div className="pointer-events-none mb-2 transition-all duration-200 w-full flex flex-row justify-center md:opacity-0 md:group-hover/imgs:opacity-100">
-                <div className="md:font-semibold text-sm md:group-hover/imgs:scale-150 xl:group-hover/imgs:scale-100 bg-white/40 md:bg-white/90 text-gray-600 px-1 py-0.5 rounded-md shadow-xl md:mix-blend-multiply underline">
+                <div className="text-sm md:group-hover/imgs:scale-150 xl:group-hover/imgs:scale-100 bg-white/40 md:bg-white/90 text-gray-600 px-1 py-0.5 rounded-md shadow-xl md:mix-blend-multiply underline">
                   {img2Meta.title}
                 </div>
               </div>

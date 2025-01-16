@@ -96,9 +96,9 @@ export default function Home() {
         </div>
         <div className="p-8 xl:p-0 space-y-4 xl:space-y-2">
           <h2 className="text-xl mb-8">And a few other things of note</h2>
-          <p>I gave a talk on designing charts at WWDC 2022: <a className="underline" href="https://developer.apple.com/videos/play/wwdc2022/110340">Design an Effective Chart</a>.</p>
-          <p>I published a paper at ACM CHI 2020: <a className="underline" href="https://idl.uw.edu/papers/dziban">Dziban: Balancing Agency & Automation in Visualization Design via Anchored Recommendations</a>.</p>
-          <p>I presented a poster at IEEE VIS 2018: <a className="underline" href="https://github.com/haldenl/attention-visualizer">Visualizing Attention in Sequence-to-Sequence Summarization Models</a>.</p>
+          <p>I gave a talk on designing charts at WWDC 2022: <a className="underline bg-gray-200/80 px-1 py-0.5 rounded-md" href="https://developer.apple.com/videos/play/wwdc2022/110340">Design an Effective Chart.</a></p>
+          <p>I published a paper at ACM CHI 2020: <a className="underline bg-gray-200/80 px-2 py-0.5 rounded-md" href="https://idl.uw.edu/papers/dziban">Dziban: Balancing Agency & Automation in Visualization Design via Anchored Recommendations.</a></p>
+          <p>I presented a poster at IEEE VIS 2018: <a className="underline bg-gray-200/80 px-2 py-0.5 rounded-md" href="https://github.com/haldenl/attention-visualizer">Visualizing Attention in Sequence-to-Sequence Summarization Models.</a></p>
         </div>
       </main>
       <footer></footer>
