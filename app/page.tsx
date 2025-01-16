@@ -9,9 +9,9 @@ export default function Home() {
           <h1 className="text-5xl font-bold">Halden Lin</h1>
         </div>
         <div className="flex flex-row mt-8 px-4 gap-x-4">
-          <a href="https://www.linkedin.com/in/halden-lin/" target="_blank" className="bg-gray-200 px-2 rounded-md">LinkedIn</a>
-          <a href="https://x.com/halden_lin" target="_blank" className="bg-gray-200 px-2 rounded-md">Twitter</a>
-          <a href="./resume.pdf" target="_blank" className="bg-gray-200 px-2 rounded-md">Resume</a>
+          <a href="https://www.linkedin.com/in/halden-lin/" target="_blank" className="bg-gray-200 dark:bg-gray-700 px-2 rounded-md">LinkedIn</a>
+          <a href="https://x.com/halden_lin" target="_blank" className="bg-gray-200 dark:bg-gray-700 px-2 rounded-md">Twitter</a>
+          <a href="./resume.pdf" target="_blank" className="bg-gray-200 dark:bg-gray-700 px-2 rounded-md">Resume</a>
         </div>
         <p className="text-xl mt-8 max-w-prose px-4">
           Hi. I&apos;m a Research Engineer at Apple. I&apos;ve built visualization
@@ -77,7 +77,7 @@ export default function Home() {
               link: "https://awhs-updates.hsph.harvard.edu/cycle-length-variability/",
             }}
           >
-            <div className="absolute transition-all duration-700 w-[130%] h-[130%] translate-x-[-20%] translate-y-[0] z-[-1] group-hover/card:translate-x-[0] group-hover/card:translate-y-[-20%] bg-gradient-to-bl from-violet-400 to-fuschia-200" />
+            <div className="absolute transition-all duration-700 w-[130%] h-[130%] translate-x-[-20%] translate-y-[0] z-[-1] group-hover/card:translate-x-[0] group-hover/card:translate-y-[-20%] bg-gradient-to-bl from-violet-400 to-fuchsia-100" />
           </ProjectHighlight>
           <ProjectHighlight
             title1="The Hidden Cost"
@@ -96,9 +96,9 @@ export default function Home() {
         </div>
         <div className="p-8 xl:p-0 space-y-4 xl:space-y-2">
           <h2 className="text-xl mb-8">And a few other things of note</h2>
-          <p>I gave a talk on designing charts at WWDC 2022: <a className="underline bg-gray-200/80 px-1 py-0.5 rounded-md" href="https://developer.apple.com/videos/play/wwdc2022/110340">Design an Effective Chart.</a></p>
-          <p>I published a paper at ACM CHI 2020: <a className="underline bg-gray-200/80 px-2 py-0.5 rounded-md" href="https://idl.uw.edu/papers/dziban">Dziban: Balancing Agency & Automation in Visualization Design via Anchored Recommendations.</a></p>
-          <p>I presented a poster at IEEE VIS 2018: <a className="underline bg-gray-200/80 px-2 py-0.5 rounded-md" href="https://github.com/haldenl/attention-visualizer">Visualizing Attention in Sequence-to-Sequence Summarization Models.</a></p>
+          <p>I gave a talk on designing charts at WWDC 2022: <a className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md" href="https://developer.apple.com/videos/play/wwdc2022/110340">Design an Effective Chart.</a></p>
+          <p>I published a paper at ACM CHI 2020: <a className="underline bg-gray-200/80 dark:bg-gray-700/80 px-2 py-0.5 rounded-md" href="https://idl.uw.edu/papers/dziban">Dziban: Balancing Agency & Automation in Visualization Design via Anchored Recommendations.</a></p>
+          <p>I presented a poster at IEEE VIS 2018: <a className="underline bg-gray-200/80 dark:bg-gray-700/80 px-2 py-0.5 rounded-md" href="https://github.com/haldenl/attention-visualizer">Visualizing Attention in Sequence-to-Sequence Summarization Models.</a></p>
         </div>
       </main>
       <footer></footer>
