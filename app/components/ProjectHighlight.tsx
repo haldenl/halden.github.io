@@ -1,6 +1,6 @@
 "use client";
 
-import { ReactNode, useState, useRef } from "react";
+import { ReactNode, useRef } from "react";
 
 interface ImgMeta {
   title?: string;
