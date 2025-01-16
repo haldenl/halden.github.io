@@ -14,16 +14,16 @@ export default function Home() {
           <a href="./resume.pdf" target="_blank" className="bg-gray-200 px-2 rounded-md">Resume</a>
         </div>
         <p className="text-xl mt-8 max-w-prose px-4">
-          Hi. I'm a Research Engineer at Apple. I've built visualization
-          frameworks, data tools, and interactive articles for Apple's Platforms
+          Hi. I&apos;m a Research Engineer at Apple. I&apos;ve built visualization
+          frameworks, data tools, and interactive articles for Apple&apos;s Platforms
           and the web. I helped create Swift Charts for Apple devices. I love
           writing code, but I also do a lot of design thinking. I helped write
-          the Human Interface Guidelines for Charts. I've authored a number of
+          the Human Interface Guidelines for Charts. I&apos;ve authored a number of
           data-driven interactive articles. I like to prototype. I like to
           polish those prototypes into products. I like refining the small
           details that make something <i>great</i> instead of good.
         </p>
-        <p className="text-xl mt-4 px-4">Here are some things I've worked on.</p>
+        <p className="text-xl mt-4 px-4">Here are some things I&apos;ve worked on.</p>
         <div className="mt-12 flex flex-col xl:grid xl:grid-cols-2 gap-4 mb-12 p-4 xl:p-0">
           <ProjectHighlight
             title1="Swift Charts"

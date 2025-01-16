@@ -28,8 +28,6 @@ const ProjectHighlight: React.FC<ProjectHighlightProps> = ({
   img2Meta,
   children,
 }) => {
-  const [dx, setDx] = useState(0);
-  const [dy, setDy] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
 
   const hasImg2Title = !!img2Meta?.title;
@@ -37,17 +35,6 @@ const ProjectHighlight: React.FC<ProjectHighlightProps> = ({
     <div
       className="group/card relative flex flex-col rounded-xl py-5 px-4 shadow-sm hover:shadow-xl transition-shadow duration-700"
       ref={containerRef}
-      onMouseMove={(e) => {
-        if (containerRef && containerRef.current) {
-          const rect = containerRef.current.getBoundingClientRect();
-          setDx(((e.clientX - rect.left - rect.width / 2) / rect.width) * 4);
-          setDy(((e.clientY - rect.top - rect.height / 2) / rect.height) * 4);
-        }
-      }}
-      onMouseLeave={(_) => {
-        setDx(0);
-        setDy(0);
-      }}
     >
       <div className="h-16 col-start-1 col-end-6 text-lg leading-5 font-bold self-start text-gray-800 mix-blend-hard-light">
         {title1}
