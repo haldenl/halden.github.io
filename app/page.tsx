@@ -31,19 +31,26 @@ export default function Home() {
             Resume
           </a>
         </div>
-        <p className="text-xl mt-8 max-w-prose px-4">
-          Hi. I&apos;m a Research Engineer at Apple. I&apos;ve built
-          visualization frameworks, data tools, and interactive articles for
-          Apple&apos;s Platforms and the web. I helped create Swift Charts for
-          Apple devices. I love writing code, but I also do a lot of design
-          thinking. I helped write the Human Interface Guidelines for Charts.
-          I&apos;ve authored a number of data-driven interactive articles.
-          Recently, I&apos;ve been building internal data tools for evaluation
-          of the LLMs of Apple Intelligence. I like to prototype. I like to
-          polish those prototypes into products. I like refining the small
-          details that make something <i>great</i> instead of good.
-        </p>
-        <p className="text-xl mt-4 px-4">
+        <div className="text-xl mt-8 max-w-prose px-4 space-y-6">
+          <p className="">
+            Hi. I&apos;m a Research Engineer at Apple . I&apos;ve built
+            visualization frameworks, data tools, and interactive articles for
+            Apple&apos;s Platforms and the web.
+          </p>
+          <p>
+            I helped create Swift Charts. I love writing code, but I also do a lot of design
+            thinking. I helped write the Human Interface Guidelines for Charts.
+            I&apos;ve authored a number of data-driven interactive articles.
+            Recently, I&apos;ve been building internal data tools for evaluation
+            of the LLMs of Apple Intelligence.
+          </p>
+          <p>
+            I like to prototype. I like to
+            polish those prototypes into products. I like refining the small
+            details that make something <i>great</i> instead of good.
+          </p>
+        </div>
+        <p className="text-xl mt-12 px-4">
           Here are some things I&apos;ve worked on.
         </p>
         <div className="mt-12 flex flex-col xl:grid xl:grid-cols-2 gap-4 mb-12 p-4 xl:p-0">
