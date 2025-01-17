@@ -43,7 +43,7 @@ export default function Home() {
             <i>great</i> instead of good.
           </p>
         </div>
-        <p className="text-xl mt-12 px-4">
+        <p className="text-xl mt-8 px-4">
           Here are some things I&apos;ve worked on.
         </p>
         <div className="mt-12 flex flex-col xl:grid xl:grid-cols-2 gap-4 mb-12 p-4 xl:p-0">
