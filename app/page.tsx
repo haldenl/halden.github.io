@@ -24,7 +24,7 @@ export default function Home() {
             Twitter
           </a>
           <a
-            href="./resume.pdf"
+            href="./halden_lin_resume.pdf"
             target="_blank"
             className="bg-gray-200 dark:bg-gray-700 px-2 rounded-md"
           >
@@ -38,12 +38,6 @@ export default function Home() {
             Apple&apos;s Platforms and the web.
           </p>
           <p>
-            I helped create Swift Charts. I helped write the Human Interface
-            Guidelines for Charts. I&apos;ve authored a number of data-driven
-            interactive articles. Recently, I&apos;ve been building internal
-            data tools for evaluation of the LLMs of Apple Intelligence.
-          </p>
-          <p>
             I like to prototype. I like to polish those prototypes into
             products. I like refining the small details that make something{" "}
             <i>great</i> instead of good.
@@ -55,7 +49,7 @@ export default function Home() {
         <div className="mt-12 flex flex-col xl:grid xl:grid-cols-2 gap-4 mb-12 p-4 xl:p-0">
           <ProjectHighlight
             title1="Swift Charts"
-            description="Beautiful Charts on Apple Devices, both at Apple and for 3rd party developers."
+            description="Beautiful Charts on Apple Devices, both at Apple and for 3rd party developers"
             img1="./swift-charts-1.png"
             img2="./swift-charts-2.png"
             img1Meta={{
@@ -75,7 +69,7 @@ export default function Home() {
             title1="Human Interface"
             title2="Guidelines for Charts"
             description="Design guidelines for if, when, and how you should use charts in
-              your apps."
+              your apps"
             img1="./hig-1.png"
             img2="./hig-2.png"
             img1Meta={{
