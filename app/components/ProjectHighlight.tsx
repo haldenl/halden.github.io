@@ -51,7 +51,7 @@ const ProjectHighlight: React.FC<ProjectHighlightProps> = ({
           {description}
         </h2>
       </div>
-      <div className="group/imgs relative mt-8 flex flex-col md:flex-col-reverse md:justify-end">
+      <div className={`group/imgs relative ${hasImg2Title ? 'mt-8' : 'mt-16'} flex flex-col md:flex-col-reverse md:justify-end`}>
         <div className="peer absolute z-10 w-full h-full"></div>
         {img1 && (
           <a
