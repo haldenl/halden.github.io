@@ -49,7 +49,7 @@ export default function Home() {
         <div className="mt-12 flex flex-col xl:grid xl:grid-cols-2 gap-4 mb-12 p-4 xl:p-0">
           <ProjectHighlight
             title1="Swift Charts"
-            description="Beautiful Charts on Apple Devices, both at Apple and for 3rd party developers"
+            description="Beautiful charts on Apple Devices, both at Apple and for 3rd party developers"
             img1="./swift-charts-1.png"
             img2="./swift-charts-2.png"
             img1Meta={{
