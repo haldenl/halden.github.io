@@ -116,11 +116,11 @@ export default function Home() {
             img1Meta={{
               title: "The Hidden Cost of Digital Consumption",
               link: "https://parametric.press/issue-02/streaming/",
-              alt: "A screenshot of a part of the interactive article showing a visual of data transferred for various websites.",
+              alt: "A screenshot of a part of the interactive article showing a visual of internet infrastructure on the west coast of the United States.",
             }}
             img2Meta={{
               link: "https://parametric.press/issue-02/streaming/",
-              alt: "A screenshot of a part of the interactive article showing a visual of internet infrastructure on the west coast of the United States.",
+              alt: "A screenshot of a part of the interactive article showing a visual of data transferred for various websites.",
             }}
           >
             <div className="absolute transition-all duration-700 w-[130%] h-[130%] translate-x-[-20%] translate-y-[0] z-[-1] group-hover/card:translate-x-[0] group-hover/card:translate-y-[-20%] bg-gradient-to-bl from-green-300 to-zinc-200" />
