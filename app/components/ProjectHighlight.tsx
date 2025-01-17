@@ -5,6 +5,7 @@ import { ReactNode, useRef } from "react";
 interface ImgMeta {
   title?: string;
   link: string;
+  alt: string;
 }
 
 interface ProjectHighlightProps {
@@ -33,7 +34,7 @@ const ProjectHighlight: React.FC<ProjectHighlightProps> = ({
   const hasImg2Title = !!img2Meta?.title;
   return (
     <div
-      className="group/card relative flex flex-col rounded-xl py-5 px-4 shadow-sm hover:shadow-xl transition-shadow duration-700"
+      className="group/card relative flex flex-col rounded-md py-5 px-4 shadow-sm hover:shadow-xl transition-shadow duration-700"
       ref={containerRef}
     >
       <div className="h-16 col-start-1 col-end-6 text-lg leading-5 font-bold self-start text-gray-800 mix-blend-hard-light">
@@ -65,7 +66,7 @@ const ProjectHighlight: React.FC<ProjectHighlightProps> = ({
                 </div>
               </div>
             )}
-            <img className="shadow-2xl" src={img1} />
+            <img className="shadow-2xl" alt={img1Meta?.alt} src={img1} />
           </a>
         )}
         {img2 && (
@@ -81,11 +82,11 @@ const ProjectHighlight: React.FC<ProjectHighlightProps> = ({
                 </div>
               </div>
             )}
-            <img className="shadow-2xl" src={img2} />
+            <img className="shadow-2xl" alt={img2Meta?.alt} src={img2} />
           </a>
         )}
       </div>
-      <div className="absolute left-0 top-0 overflow-clip w-full h-full rounded-xl">
+      <div className="absolute left-0 top-0 overflow-clip w-full h-full rounded-md">
         {children}
       </div>
     </div>

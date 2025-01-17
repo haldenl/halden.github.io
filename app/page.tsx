@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col max-w-screen-lg mx-auto">
       <main className="flex flex-col mb-48">
         <div className="flex flex-row items-center mt-12 px-4">
-          <img src="./prof.jpg" className="h-24 w-24 mr-4 rounded-full" />
+          <img src="./prof.jpg" alt="A photo of me" className="h-24 w-24 mr-4 rounded-full" />
           <h1 className="text-5xl font-bold">Halden Lin</h1>
         </div>
         <div className="flex flex-row mt-8 px-4 gap-x-4">
@@ -55,10 +55,12 @@ export default function Home() {
             img1Meta={{
               title: "Hello Swift Charts @ WWDC",
               link: "https://developer.apple.com/videos/play/wwdc2022/10136/",
+              alt: "A screenshot of a part of the Hello Swift Charts talk from WWDC 2022 showing code and the chart it produces.",
             }}
             img2Meta={{
               title: "Swift Charts Developer Documentation",
               link: "https://developer.apple.com/documentation/charts",
+              alt: "A screenshot of the Swift Charts developer documentation website.",
             }}
           >
             <div
@@ -75,10 +77,12 @@ export default function Home() {
             img1Meta={{
               title: "Charts",
               link: "https://developer.apple.com/design/human-interface-guidelines/charts",
+              alt: "A screenshot of Charts page of the Human Interface Guidelines.",
             }}
             img2Meta={{
               title: "Charting Data",
               link: "https://developer.apple.com/design/human-interface-guidelines/charting-data",
+              alt: "A screenshot of Charting Data page of the Human Interface Guidelines.",
             }}
           >
             <div className="absolute transition-all duration-700 w-full h-[130%] translate-x-0 translate-y-[0] group-hover/card:translate-y-[-20%] z-[-1] bg-gradient-to-b from-red-400 to-yellow-200" />
@@ -94,9 +98,11 @@ export default function Home() {
               title:
                 "Menstrual cycle length and variability: a visual explanation",
               link: "https://awhs-updates.hsph.harvard.edu/cycle-length-variability/",
+              alt: "A screenshot of a part of the interactive article showing a visual of a distribution of menstrual cycle length.",
             }}
             img2Meta={{
               link: "https://awhs-updates.hsph.harvard.edu/cycle-length-variability/",
+              alt: "A screenshot of a part of the interactive article showing a calendar month with a cycle highlighted.",
             }}
           >
             <div className="absolute transition-all duration-700 w-[130%] h-[130%] translate-x-[-20%] translate-y-[0] z-[-1] group-hover/card:translate-x-[0] group-hover/card:translate-y-[-20%] bg-gradient-to-bl from-violet-400 to-fuchsia-100" />
@@ -110,8 +116,12 @@ export default function Home() {
             img1Meta={{
               title: "The Hidden Cost of Digital Consumption",
               link: "https://parametric.press/issue-02/streaming/",
+              alt: "A screenshot of a part of the interactive article showing a visual of data transferred for various websites.",
             }}
-            img2Meta={{ link: "https://parametric.press/issue-02/streaming/" }}
+            img2Meta={{
+              link: "https://parametric.press/issue-02/streaming/",
+              alt: "A screenshot of a part of the interactive article showing a visual of internet infrastructure on the west coast of the United States.",
+            }}
           >
             <div className="absolute transition-all duration-700 w-[130%] h-[130%] translate-x-[-20%] translate-y-[0] z-[-1] group-hover/card:translate-x-[0] group-hover/card:translate-y-[-20%] bg-gradient-to-bl from-green-300 to-zinc-200" />
           </ProjectHighlight>
