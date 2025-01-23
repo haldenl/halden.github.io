@@ -42,6 +42,11 @@ export default function Home() {
             products. I like refining the small details that make something{" "}
             <i>great</i> instead of good.
           </p>
+          <p>
+          Before Apple, I was a member of the
+            <a href="https://idl.uw.edu/people" target="_blank" className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md">Interactive Data Lab</a> at the University of Washington, where I completed my MS
+            degree, working with <a href="https://homes.cs.washington.edu/~jheer/" target="_blank" className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md">Jeff Heer</a>.
+          </p>
         </div>
         <p className="text-xl mt-8 px-4">
           Here are some things I&apos;ve worked on.
@@ -134,8 +139,9 @@ export default function Home() {
               className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
               href="https://developer.apple.com/videos/play/wwdc2022/110340"
             >
-              Design an Effective Chart.
+              Design an Effective Chart
             </a>
+            <i className="text-gray-400">with Lilian De Greef</i>
           </p>
           <p>
             I published a paper at ACM CHI 2020:{" "}
@@ -144,8 +150,9 @@ export default function Home() {
               href="https://idl.uw.edu/papers/dziban"
             >
               Dziban: Balancing Agency & Automation in Visualization Design via
-              Anchored Recommendations.
+              Anchored Recommendations
             </a>
+            <i className="text-gray-400">with Dominik Moritz & Jeffrey Heer</i>
           </p>
           <p>
             I presented a poster at IEEE VIS 2018:{" "}
@@ -154,8 +161,9 @@ export default function Home() {
               href="https://github.com/haldenl/attention-visualizer"
             >
               Visualizing Attention in Sequence-to-Sequence Summarization
-              Models.
+              Models
             </a>
+            <i className="text-gray-400">with Tongshuang Wu, Kanit Wongsuphasawat, Yejin Choi, and Jeffrey Heer</i>
           </p>
         </div>
       </main>
