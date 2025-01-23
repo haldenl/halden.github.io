@@ -5,7 +5,11 @@ export default function Home() {
     <div className="flex flex-col max-w-screen-lg mx-auto">
       <main className="flex flex-col mb-48">
         <div className="flex flex-row items-center mt-12 px-4">
-          <img src="./prof.jpg" alt="A photo of me" className="h-24 w-24 mr-4 rounded-full" />
+          <img
+            src="./prof.jpg"
+            alt="A photo of me"
+            className="h-24 w-24 mr-4 rounded-full"
+          />
           <h1 className="text-5xl font-bold">Halden Lin</h1>
         </div>
         <div className="flex flex-row mt-8 px-4 gap-x-4">
@@ -43,9 +47,24 @@ export default function Home() {
             <i>great</i> instead of good.
           </p>
           <p>
-          Before Apple, I was a member of the
-            <a href="https://idl.uw.edu/people" target="_blank" className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md">Interactive Data Lab</a> at the University of Washington, where I completed my MS
-            degree, working with <a href="https://homes.cs.washington.edu/~jheer/" target="_blank" className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md">Jeff Heer</a>.
+            Before Apple, I was a part of the
+            <a
+              href="https://idl.uw.edu/people"
+              target="_blank"
+              className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
+            >
+              Interactive Data Lab
+            </a>{" "}
+            at the University of Washington, where I completed my MS degree,
+            working with{" "}
+            <a
+              href="https://homes.cs.washington.edu/~jheer/"
+              target="_blank"
+              className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
+            >
+              Jeff Heer
+            </a>
+            .
           </p>
         </div>
         <p className="text-xl mt-8 px-4">
@@ -160,10 +179,12 @@ export default function Home() {
               className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
               href="https://github.com/haldenl/attention-visualizer"
             >
-              Visualizing Attention in Sequence-to-Sequence Summarization
-              Models
+              Visualizing Attention in Sequence-to-Sequence Summarization Models
             </a>
-            <i className="text-gray-400">with Tongshuang Wu, Kanit Wongsuphasawat, Yejin Choi, and Jeffrey Heer</i>
+            <i className="text-gray-400">
+              with Tongshuang Wu, Kanit Wongsuphasawat, Yejin Choi, and Jeffrey
+              Heer
+            </i>
           </p>
         </div>
       </main>
