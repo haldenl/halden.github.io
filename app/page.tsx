@@ -171,7 +171,7 @@ export default function Home() {
               Dziban: Balancing Agency & Automation in Visualization Design via
               Anchored Recommendations
             </a>
-            <i className="text-gray-400">with Dominik Moritz & Jeffrey Heer</i>
+            <i className="text-gray-400">with Dominik Moritz and Jeffrey Heer</i>
           </p>
           <p>
             I presented a poster at IEEE VIS 2018:{" "}
