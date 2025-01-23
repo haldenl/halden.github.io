@@ -47,7 +47,7 @@ export default function Home() {
             <i>great</i> instead of good.
           </p>
           <p>
-            Before Apple, I was a part of the
+            Before Apple, I was a part of the 
             <a
               href="https://idl.uw.edu/people"
               target="_blank"
