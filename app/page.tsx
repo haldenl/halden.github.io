@@ -159,7 +159,7 @@ export default function Home() {
               href="https://developer.apple.com/videos/play/wwdc2022/110340"
             >
               Design an Effective Chart
-            </a>
+            </a>{" "}
             <i className="text-gray-400">with Lilian De Greef</i>
           </p>
           <p>
@@ -170,7 +170,7 @@ export default function Home() {
             >
               Dziban: Balancing Agency & Automation in Visualization Design via
               Anchored Recommendations
-            </a>
+            </a>{" "}
             <i className="text-gray-400">with Dominik Moritz and Jeffrey Heer</i>
           </p>
           <p>
@@ -181,7 +181,7 @@ export default function Home() {
             >
               Visualizing Attention in Sequence-to-Sequence Summarization Models
             </a>
-            <i className="text-gray-400">
+            <i className="text-gray-400">{" "}
               with Tongshuang Wu, Kanit Wongsuphasawat, Yejin Choi, and Jeffrey
               Heer
             </i>
