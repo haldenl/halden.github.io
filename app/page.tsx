@@ -51,7 +51,7 @@ export default function Home() {
             <a
               href="https://idl.uw.edu/people"
               target="_blank"
-              className="underline text-gray-600 px-1 py-0.5 rounded-md"
+              className="underline text-gray-600 rounded-md"
             >
               Interactive Data Lab
             </a>{" "}
@@ -60,7 +60,7 @@ export default function Home() {
             <a
               href="https://homes.cs.washington.edu/~jheer/"
               target="_blank"
-              className="underline text-gray-600 px-1 py-0.5 rounded-md"
+              className="underline text-gray-600 rounded-md"
             >
               Jeff Heer
             </a>
