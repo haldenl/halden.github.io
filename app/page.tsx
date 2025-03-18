@@ -149,9 +149,72 @@ export default function Home() {
           >
             <div className="absolute transition-all duration-700 w-[130%] h-[130%] translate-x-[-20%] translate-y-[0] z-[-1] group-hover/card:translate-x-[0] group-hover/card:translate-y-[-20%] bg-gradient-to-bl from-green-300 to-zinc-200" />
           </ProjectHighlight>
+          <ProjectHighlight
+            title1="Dziban: Balancing Agency and Automation"
+            title2="in Visualization Design via Anchored Recommendations"
+            description="A python library for recommender-powered visualization authoring."
+            img1="./dziban-1.png"
+            img2="./dziban-2.png"
+            img1Meta={{
+              title: "Dziban: CHI 2020 in Honolulu",
+              link: "https://idl.cs.washington.edu/files/2020-Dziban-CHI.pdf",
+              alt: "A screenshot of the Dziban paper.",
+            }}
+            img2Meta={{
+              title: "Sample Notebook",
+              link: "https://github.com/uwdata/dziban/blob/master/examples/MKIV.ipynb",
+              alt: "A screenshot of the a python notebook using Dziban",
+            }}
+          >
+            <div className="absolute transition-all duration-700 w-[130%] h-[130%] translate-x-[-20%] translate-y-[0] z-[-1] group-hover/card:translate-x-[0] group-hover/card:translate-y-[-20%] bg-gradient-to-r from-cyan-300 to-green-100" />
+          </ProjectHighlight>
+          <ProjectHighlight
+            title1="Visualizing Attention"
+            title2="in Sequence to Sequence Models"
+            description="A tool for understanding attention. Poster presented at IEEE VIS 2018 in Berlin."
+            img1="./attention-1.png"
+            img2="./attention-2.png"
+            img1Meta={{
+              title: "Visualizing Attention in Sequence to Sequence Models",
+              link: "https://haldenl.github.io/attention-visualizer/",
+              alt: "A screenshot of the attention visualization tool.",
+            }}
+            img2Meta={{
+              link: "https://haldenl.github.io/attention-visualizer/",
+              alt: "A screenshot of the attention visualization tool.",
+            }}
+          >
+            <div className="absolute transition-all duration-700 w-[130%] h-[130%] translate-x-[-20%] translate-y-[0] z-[-1] group-hover/card:translate-x-[0] group-hover/card:translate-y-[-20%] bg-gradient-to-tr from-sky-300 to-orange-100" />
+          </ProjectHighlight>
         </div>
         <div className="p-8 xl:p-0 space-y-4 xl:space-y-2">
-          <h2 className="text-xl mb-8">And a few other things of note</h2>
+          <h2 className="text-xl mb-8">News</h2>
+          <p>
+            We published an interactive article for the Apple Women's Health Study in September 2023:{" "}
+            <a
+              className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
+              href="https://awhs-updates.hsph.harvard.edu/cycle-length-variability/"
+            >
+              Menstrual cycle length and variability: a visual explanation
+            </a>{" "}
+            <i className="text-gray-400">with Samantha Robertson and Fred Hohman</i>
+          </p>
+          <p>
+            We published the Human Interface Guidelines on Charts in September 2022:{" "}
+            <a
+              className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
+              href="https://developer.apple.com/design/human-interface-guidelines/charts"
+            >
+              Charts
+            </a>{" & "}
+            <a
+              className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
+              href="https://developer.apple.com/design/human-interface-guidelines/charting-data"
+            >
+              Charting Data
+            </a>{" "}
+            <i className="text-gray-400">with the team at Apple</i>
+          </p>
           <p>
             I gave a talk on designing charts at WWDC 2022:{" "}
             <a
@@ -161,6 +224,26 @@ export default function Home() {
               Design an Effective Chart
             </a>{" "}
             <i className="text-gray-400">with Lilian De Greef</i>
+          </p>
+          <p>
+            We released Swift Charts at WWDC 2022: {" "}
+            <a
+              className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
+              href="https://developer.apple.com/documentation/charts"
+            >
+              Swift Charts
+            </a>{" "}
+            <i className="text-gray-400">with the team at Apple</i>
+          </p>
+          <p>
+            I published an article on the Parametric Press in October 2020:{" "}
+            <a
+              className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
+              href="https://parametric.press/issue-02/streaming/"
+            >
+              The Hidden Cost of Digital Consumption
+            </a>{" "}
+            <i className="text-gray-400">with Aishwarya Nirmal, Shobhit Hathi, and Lilian Liang</i>
           </p>
           <p>
             I published a paper at ACM CHI 2020:{" "}
