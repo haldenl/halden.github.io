@@ -156,7 +156,7 @@ export default function Home() {
             img1="./dziban-1.png"
             img2="./dziban-2.png"
             img1Meta={{
-              title: "Dziban: CHI 2020 in Honolulu",
+              title: "Paper (from CHI 2020 in Honolulu)",
               link: "https://idl.cs.washington.edu/files/2020-Dziban-CHI.pdf",
               alt: "A screenshot of the Dziban paper.",
             }}
