@@ -190,7 +190,7 @@ export default function Home() {
         <div className="p-8 xl:p-0 space-y-4 xl:space-y-2">
           <h2 className="text-xl mb-8">News</h2>
           <p>
-            We published an interactive article for the Apple Women's Health Study in September 2023:{" "}
+            We published an interactive article for the Apple Women&apos;s Health Study in September 2023:{" "}
             <a
               className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
               href="https://awhs-updates.hsph.harvard.edu/cycle-length-variability/"
