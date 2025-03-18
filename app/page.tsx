@@ -206,7 +206,7 @@ export default function Home() {
               href="https://developer.apple.com/design/human-interface-guidelines/charts"
             >
               Charts
-            </a>{" & "}
+            </a>{", "}
             <a
               className="underline bg-gray-200/80 dark:bg-gray-700/80 px-1 py-0.5 rounded-md"
               href="https://developer.apple.com/design/human-interface-guidelines/charting-data"
